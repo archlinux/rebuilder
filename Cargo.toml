@@ -12,6 +12,9 @@ anyhow = "1"
 structopt = "0.3"
 petgraph = "0.5.0"
 
+[dev-dependencies]
+tar = "0.4"
+
 [profile.release]
 opt-level = 3
 lto = true
